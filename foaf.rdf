@@ -11,7 +11,7 @@
         <foaf:givenname>Antoine</foaf:givenname>
         <foaf:family_name>Sueur</foaf:family_name>
         <foaf:mbox rdf:resource="mailto:antoine-sueur@etudiant.univ-lr.fr" />
-        <foaf:homepage rdf:resource="/index.html" />
+        <foaf:homepage rdf:resource="/foaf.rdf" />
         <foaf:schoolHomepage rdf:resource="https://www.univ-larochelle.fr/" />
 
         <foaf:interest>
@@ -47,5 +47,17 @@
         <foaf:plan>Bonjour ! Je m'appelle Antoine Sueur et je suis developpeur web étudiant en
             Master 2 à l'université de la
             Rochelle.</foaf:plan>
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:name>Maxime Monbeig</foaf:name>
+                <foaf:homepage rdf:resource="https://maxime-monbeig.github.io/foaf.rdf" />
+            </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:name>Ainhoa Lenestour</foaf:name>
+                <foaf:homepage rdf:resource="https://ainhoalntr.github.io/foaf.rdf" />
+            </foaf:Person>
+        </foaf:knows>
     </foaf:Person>
 </rdf:RDF>
