@@ -68,6 +68,19 @@
                 <p>
                     <xsl:value-of select="//foaf:plan" />
                 </p>
+
+                <!-- Ajout de la section pour les connaissances (foaf:knows) -->
+                <h2>Connaissances</h2>
+                <ul>
+                    <xsl:for-each select="//foaf:knows/foaf:Person">
+                        <li>
+                            <xsl:value-of select="foaf:name" /> - <a
+                                href="{foaf:homepage/@rdf:resource}">
+                                <xsl:value-of select="foaf:homepage/@rdf:resource" />
+                            </a>
+                        </li>
+                    </xsl:for-each>
+                </ul>
             </body>
         </html>
     </xsl:template>
