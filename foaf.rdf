@@ -52,8 +52,6 @@
                 <foaf:name>Maxime Monbeig</foaf:name>
                 <foaf:homepage rdf:resource="https://maxime-monbeig.github.io/foaf.rdf" />
             </foaf:Person>
-        </foaf:knows>
-        <foaf:knows>
             <foaf:Person>
                 <foaf:name>Ainhoa Lenestour</foaf:name>
                 <foaf:homepage rdf:resource="https://ainhoalntr.github.io/foaf.rdf" />
