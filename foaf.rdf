@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <foaf:Person>
+        <foaf:name>Antoine Sueur</foaf:name>
+        <foaf:title>Web Developer</foaf:title>
+        <foaf:givenname>Antoine</foaf:givenname>
+        <foaf:family_name>Sueur</foaf:family_name>
+        <foaf:mbox rdf:resource="mailto:antoine-sueur@etudiant.univ-lr.fr" />
+        <foaf:homepage rdf:resource="/index.html" />
+        <foaf:schoolHomepage rdf:resource="https://www.univ-larochelle.fr/" />
+
+        <foaf:interest>
+            <rdf:Description>
+                <rdfs:label>Jeux videos</rdfs:label>
+            </rdf:Description>
+        </foaf:interest>
+        <foaf:interest>
+            <rdf:Description>
+                <rdfs:label>Cinéma</rdfs:label>
+            </rdf:Description>
+        </foaf:interest>
+        <foaf:interest>
+            <rdf:Description>
+                <rdfs:label>Code</rdfs:label>
+            </rdf:Description>
+        </foaf:interest>
+
+        <foaf:account>
+            <foaf:OnlineAccount>
+                <foaf:accountServiceHomepage
+                    rdf:resource="https://www.linkedin.com/in/antoine-sueur-3b0539ba/" />
+                <foaf:accountName>Antoine Sueur</foaf:accountName>
+            </foaf:OnlineAccount>
+        </foaf:account>
+        <foaf:account>
+            <foaf:OnlineAccount>
+                <foaf:accountServiceHomepage rdf:resource="https://github.com/AntoineSueurDev" />
+                <foaf:accountName>AntoineSueurDev</foaf:accountName>
+            </foaf:OnlineAccount>
+        </foaf:account>
+
+        <foaf:plan>Bonjour ! Je m'appelle Antoine Sueur et je suis developpeur web étudiant en
+            Master 2 à l'université de la
+            Rochelle.</foaf:plan>
+    </foaf:Person>
+</rdf:RDF>
